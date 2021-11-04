@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/309/diya-lamp_1fa94.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#2482d9" />
+    
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://diwali.healdb.me" />
+        <meta property="og:title" content="Your Known Has Gifted You A Virtual Happy Diwali Card" />
+        <meta property="og:description" content="🪔 Wishing Your Friends And Family With A Warm Wishes of Diwali,Hope you have a blessed, healthy and prosperous Diwali. A very Happy Diwali to you and your family!" />
+        <meta property="og:image" content="https://user-images.githubusercontent.com/65026164/140020665-57c0f3ac-b219-4cbf-bbf7-f55a2ce172b9.png" />
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://diwali.healdb.me" />
+        <meta property="twitter:title" content="Your Known Has Gifted You A Virtual Happy Diwali Card" />
+        <meta property="twitter:description" content="🪔 Wishing Your Friends And Family With A Warm Wishes of Diwali, Hope you have a blessed, healthy and prosperous Diwali. A very Happy Diwali to you and your family!" />
+        <meta property="twitter:image" content="https://user-images.githubusercontent.com/65026164/140020665-57c0f3ac-b219-4cbf-bbf7-f55a2ce172b9.png" />
+    
+        <meta name="keywords" content="hbd, hbd today, happy birthday today, virtual birthday card, card, hbd card" />
+        <link rel="apple-touch-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/309/diya-lamp_1fa94.png" />
+    
+        <title>Diwali Card</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="gift/style.css">
+    </head>
+    <body id="canvas" onload="wishme()">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="main1">
+            <div class="left">
+                <h1 id="to"></h1>
+                <h4 id="from"></h4>
+                <h6>🧔🏻 Project By <a href="https://github.com/healer-op">Healer</a></h6>
+            </div>
+            <div class="right1">
+                <form id="uff" action="/wish.html">
+                    <h6>🪔Generate Cards</h6>
+                    <label for="to">To:</label><br>
+                    <input type="text" id="to" name="to" value="Wanda"><br>
+                    <label for="from">From:</label><br>
+                    <input type="text" id="from" name="from" value="Healer"><br>
+                    <label for="bg">Background:</label>
+                    <select id="bg" name="bg">
+                      <option value="Green">Green</option>
+                      <option value="Orange">Orange</option>
+                      <option value="Purple">Purple</option>
+                      <option value="Yellow">Yellow</option>
+                      <option value="Blue">Blue</option>
+                    </select><br>
+                    <input onclick="wishme()" type="submit" value="Generate">
+                  </form> 
+            </div>
+        </div>
+        <script src="wish.js" async defer></script>
+        </body>
+        
+</html>
